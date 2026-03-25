@@ -5,15 +5,19 @@
   padding: 30px;
 }
 .count{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-shadow: none;
     font-family:Arial, Helvetica, sans-serif;
     color: #39ff14;
-    text-shadow: 0 0 10px #39ff14;
-                 
-                         
+    text-shadow: 0 0 10px #39ff14;                  
 
+}
+@media (max-width:600px) {
+    .count{
+        font-size: 25px;
+    }
+    
 }
 body{
     display: flex;
@@ -22,10 +26,16 @@ body{
     
 }
 h1{
-    font-size: 90px;
+    font-size: 60px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #00f7ff;
-    text-shadow: 0px 0px 20px #39ff14;
+    text-shadow: 0px 0px 10px #39ff14;
+}
+@media (max-width:600px) {
+    h1{
+        font-size: 35px;
+    }
+    
 }
 button{
     padding: 10px 20px;
@@ -33,7 +43,7 @@ button{
     background-color:transparent;
     color: #00f7ff;
     border-radius: 5px;
-    font-size: 40px;
+    font-size: 18px;
     margin: 5px;
     cursor: pointer;
     box-shadow: 0 0 10px #00f7ff;
@@ -42,9 +52,16 @@ button{
 
 
 }
+@media (max-width:600px) {
+    button{
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    
+}
 button:hover{
     background-color:#00f7ff;
-    font-size: 45px;
+    font-size: 25px;
     color:black;
 }
 .resetBox{
